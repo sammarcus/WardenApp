@@ -111,6 +111,9 @@ Licensed under Apache 2.0
     alt="Featured on findly.tools" 
     width="150" 
   />
-</a>
 
 </div>
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sidhuk/wardenapp&type=timeline&legend=bottom-right)](https://www.star-history.com/#sidhuk/wardenapp&type=timeline&legend=bottom-right)
