@@ -43,6 +43,8 @@ struct SubmitTextEditor: NSViewRepresentable {
     func updateNSView(_ nsView: NSScrollView, context: Context) {
         guard let textView = nsView.documentView as? NSTextView else { return }
         
+        context.coordinator.parent = self
+        
         if textView.string != text {
             textView.string = text
         }
